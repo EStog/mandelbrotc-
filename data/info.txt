@@ -1,0 +1,69 @@
+System:    Kernel: 4.12.14-lp151.28.40-default x86_64 bits: 64 gcc: 7.5.0 Console: tty 1 dm: sddm,sddm
+           Distro: openSUSE Leap 15.1
+Machine:   Device: laptop System: HP product: HP Laptop 15-db0xxx v: Type1ProductConfigId serial: <filter>
+           Mobo: HP model: 84AE v: 86.21 serial: <filter> UEFI: Insyde v: F.16 date: 12/14/2018
+           Chassis: type: 10 serial: <filter>
+Battery    BAT1: charge: 37.7 Wh 100.0% condition: 37.7/41.0 Wh (92%) volts: 12.8/11.4
+           model: Hewlett-Packard PABAS0241231 Li-ion serial: <filter>status: Full cycles: 0
+CPU:       Quad core AMD Ryzen 5 2500U with Radeon Vega Mobile Gfx (-HT-MCP-)
+           arch: Zen rev.0 cache: 2048 KB bmips: 15970
+           clock speeds: min/max: 1600/2000 MHz 1: 1600 MHz 2: 1600 MHz 3: 1600 MHz 4: 1600 MHz 5: 1600 MHz
+           6: 1600 MHz 7: 1600 MHz 8: 1600 MHz
+           CPU Flags: 3dnowprefetch abm adx aes aperfmperf apic arat avic avx avx2 bmi1 bmi2 bpext clflush
+           clflushopt clzero cmov cmp_legacy constant_tsc cpb cpuid cr8_legacy cx16 cx8 de decodeassists extapic
+           extd_apicid f16c flushbyasid fma fpu fsgsbase fxsr fxsr_opt ht hw_pstate ibpb irperf lahf_lm lbrv lm
+           mca mce misalignsse mmx mmxext monitor movbe msr mtrr mwaitx nonstop_tsc nopl npt nrip_save nx osvw
+           overflow_recov pae pat pausefilter pclmulqdq pdpe1gb perfctr_core perfctr_l2 perfctr_nb pfthreshold
+           pge pni popcnt pse pse36 rdrand rdseed rdtscp rep_good sep sev sha_ni skinit smap smca sme smep ssbd
+           sse sse2 sse4_1 sse4_2 sse4a ssse3 succor svm svm_lock syscall tce topoext tsc tsc_scale
+           v_vmsave_vmload vgif vmcb_clean vme vmmcall wdt xgetbv1 xsave xsavec xsaveerptr xsaveopt xsaves
+Memory:    Array-1 capacity: 64 GB devices: 2 EC: None
+           Device-1: Bottom-slot 1(left) size: 8 GB speed: 2400 MT/s
+           type: DDR4 (Synchronous Unbuffered (Unregistered)) bus width: 64 bits
+           manufacturer: Samsung part: M471A1K43CB1-CTD serial: <filter>
+           Device-2: Bottom-slot 2(right) size: No Module Installed type: DDR
+Graphics:  Card: Advanced Micro Devices [AMD/ATI] Raven Ridge [Radeon Vega Series / Radeon Vega Mobile Series]
+           bus-ID: 04:00.0 chip-ID: 1002:15dd
+           Display Server: X.org 1.20.3 drivers: ati,amdgpu (unloaded: modesetting,fbdev,vesa)
+           tty size: 170x48 Advanced Data: N/A for root out of X
+Audio:     Card-1 Advanced Micro Devices [AMD/ATI] Raven/Raven2/Fenghuang HDMI/DP Audio Controller
+           driver: snd_hda_intel bus-ID: 04:00.1 chip-ID: 1002:15de
+           Card-2 Advanced Micro Devices [AMD] Family 17h (Models 10h-1fh) HD Audio Controller
+           driver: snd_hda_intel bus-ID: 04:00.6 chip-ID: 1022:15e3
+           Sound: Advanced Linux Sound Architecture v: k4.12.14-lp151.28.40-default
+Network:   Card-1: Realtek RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller
+           driver: r8169 v: 2.3LK-NAPI port: 3000 bus-ID: 02:00.0 chip-ID: 10ec:8168
+           IF: eth0 state: down mac: <filter>
+           Card-2: Realtek RTL8821CE 802.11ac PCIe Wireless Network Adapter
+           driver: rtl8821ce port: 2000 bus-ID: 03:00.0 chip-ID: 10ec:c821
+           IF: wlan0 state: down mac: <filter>
+Drives:    HDD Total Size: 1000.2GB (87.8% used)
+           ID-1: /dev/sda model: ST1000LM035 size: 1000.2GB serial: <filter> temp: 39C
+Partition: ID-1: / size: 35G used: 20G (59%) fs: ext4 dev: /dev/sda2
+           ID-2: /home size: 19G used: 6.9G (40%) fs: ext4 dev: /dev/sda4
+Sensors:   System Temperatures: cpu: 62.0C mobo: 20.0C gpu: 61.0
+           Fan Speeds (in rpm): cpu: N/A
+Processes: CPU: % used - Memory: MB / % used - top 20 active
+           1: cpu: 23.2% command: python3 pid: 2566 mem: 96.51MB (1.2%)
+           2: cpu: 1.4% command: systemd pid: 1 mem: 9.05MB (0.1%)
+           3: cpu: 0.1% command: -bash pid: 2109 mem: 8.21MB (0.1%)
+           4: cpu: 0.1% command: dbus-daemon pid: 1270 mem: 4.80MB (0.0%)
+           5: cpu: 0.1% command: systemd-udevd pid: 461 mem: 5.75MB (0.0%)
+           6: cpu: 0.0% daemon: ~kworker/6:2~ pid: 2563 mem: 0.00MB (0.0%)
+           7: cpu: 0.0% daemon: ~sd-pam~ pid: 2101 mem: 2.71MB (0.0%)
+           8: cpu: 0.0% command: systemd pid: 2100 mem: 7.58MB (0.0%)
+           9: cpu: 0.0% command: upowerd pid: 2073 mem: 9.43MB (0.1%)
+           10: cpu: 0.0% command: udisksd pid: 2067 mem: 10.47MB (0.1%)
+           11: cpu: 0.0% command: login pid: 2007 mem: 5.56MB (0.0%)
+           12: cpu: 0.0% daemon: ~kworker/3:2~ pid: 2004 mem: 0.00MB (0.0%)
+           13: cpu: 0.0% command: cron pid: 1710 mem: 2.80MB (0.0%)
+           14: cpu: 0.0% command: qmgr pid: 1694 mem: 6.32MB (0.0%)
+           15: cpu: 0.0% command: pickup pid: 1693 mem: 5.57MB (0.0%)
+           16: cpu: 0.0% command: master pid: 1683 mem: 3.64MB (0.0%)
+           17: cpu: 0.0% command: wpa_supplicant pid: 1596 mem: 5.22MB (0.0%)
+           18: cpu: 0.0% command: polkitd pid: 1558 mem: 24.00MB (0.3%)
+           19: cpu: 0.0% daemon: ~iscsi_eh~ pid: 1497 mem: 0.00MB (0.0%)
+           20: cpu: 0.0% command: iscsid pid: 1492 mem: 10.38MB (0.1%)
+Info:      Processes: 178 Uptime: 0:05 Memory: 293.3/7622.7MB
+           Init: systemd v: 234 runlevel: 5 default: graphical.target Gcc sys: 7.5.0
+           Client: Shell (sudo running in tty 1) inxi: 2.3.40

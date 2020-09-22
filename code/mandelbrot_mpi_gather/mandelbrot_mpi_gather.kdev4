@@ -1,0 +1,3 @@
+[Project]
+Name=mandelbrot_mpi_gather
+Manager=KDevCMakeManager

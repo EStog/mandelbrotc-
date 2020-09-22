@@ -1,0 +1,3 @@
+[Project]
+Name=mandelbrot_mpi_send_recv
+Manager=KDevCMakeManager
