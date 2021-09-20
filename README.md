@@ -1,4 +1,4 @@
-![license](https://img.shields.io/github/license/EStog/mandelbrotc-)
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/EStog/mandelbrotc-?include_prereleases) [![DOI](https://zenodo.org/badge/297758962.svg)](https://zenodo.org/badge/latestdoi/297758962) ![license](https://img.shields.io/github/license/EStog/mandelbrotc-)
 
 # Mandelbrot generation experiments with MPI and OpenMP
 
